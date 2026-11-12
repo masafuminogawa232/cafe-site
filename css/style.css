@@ -493,4 +493,14 @@ li {
     justify-content: center;
     width: 100%;
   }
+}
+/* ABOUTセクションとAccess余白のスマホ対応 */
+@media (max-width: 850px) {
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #access {
+    padding: 60px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
