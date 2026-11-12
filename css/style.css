@@ -289,7 +289,7 @@ li {
 }
 /* --- Accessセクション設定 --- */
 #access {
-  padding: 80px;
+  padding: 80px 20px;
 }
 
 .access-wrapper {
