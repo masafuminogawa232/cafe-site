@@ -288,6 +288,10 @@ li {
   }
 }
 /* --- Accessセクション設定 --- */
+#access {
+  padding: 80px;
+}
+
 .access-wrapper {
   display: flex;
   justify-content: space-between;
