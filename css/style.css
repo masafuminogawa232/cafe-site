@@ -497,10 +497,18 @@ li {
 /* ABOUTセクションとAccess余白のスマホ対応 */
 @media (max-width: 850px) {
   .about-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
   }
   #access {
     padding: 60px 20px;
+    flex-direction: column;
+  }
+  .logo a {
+    font-size: 15px;
+    display: flex;
+  }
+  .access-map iframe {
+    min-height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
