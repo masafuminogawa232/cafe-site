@@ -519,15 +519,26 @@ li {
   }
 
   .logo a {
-    font-size: 12px;
-    display: flex;
+    font-size: 10px;
+    display: block;
   }
+
   .access-map iframe {
     min-height: 300px;
   }
   .nav-link {
-    font-size: 12px;
+    font-size: 10px;
   }
+  .nav-list {
+    gap: 15px;
+  }
+  .about-lead {
+    font-size: 16px;
+  }
+  .header-container {
+    align-items: baseline;
+  }
+
 }
 
 
